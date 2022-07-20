@@ -30,11 +30,11 @@ ul {
   color: var(--accent-text-color)
 }
 
-h1 {
+.hero {
   color: #FFFFFF;
   background-color: #2F303A ;
 }
 
-h2, h3, h4 {
+.title  {
   color: var(--title-text-color);
 }
