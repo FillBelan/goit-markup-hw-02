@@ -1,0 +1,40 @@
+:root{
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196F3;
+}
+
+body{
+  color: var(--primary-text-color);
+  background-color:#FFFFFF ;
+}
+ul {
+   list-style: none; 
+   } 
+   a{text-decoration: none;}
+
+/*  цвет основного текстаbackground: #212121;  */
+/* вторичный текст цвета background: #757575; */
+/* белый #E5E5E5 */
+/* акцент background: #2196F3; */
+/* фон команды background: #F5F4FA; */
+/* ФОН СЕКЦИИ 1 background: #2F303A; */
+
+.logo {
+    color: var(--accent-text-color)
+}
+.link, .link-nav {
+  color: var(--title-text-color)
+}
+.link-nav:hover, .link-nav:focus {
+  color: var(--accent-text-color)
+}
+
+h1 {
+  color: #FFFFFF;
+  background-color: #2F303A ;
+}
+
+h2, h3, h4 {
+  color: var(--title-text-color);
+}
