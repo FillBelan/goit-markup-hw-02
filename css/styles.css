@@ -35,6 +35,11 @@ ul {
   background-color: #2F303A ;
 }
 
+.hero-button:hover, .hero-button:focus {
+color: #FFFFFF
+background-color:#2196F3
+}
+
 .title  {
   color: var(--title-text-color);
 }
