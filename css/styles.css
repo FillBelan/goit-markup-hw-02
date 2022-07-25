@@ -9,10 +9,11 @@ body{
   background-color:#FFFFFF ;
   font-family: 'Roboto', sans-serif;
 }
-ul {
-   list-style: none; 
-   } 
-   a{text-decoration: none;}
+.list {
+      list-style: none; 
+      } 
+
+.link {text-decoration: none;}
 
 /*  цвет основного текстаbackground: #212121;  */
 /* вторичный текст цвета background: #757575; */
@@ -24,10 +25,16 @@ ul {
 .logo {
     color: var(--accent-text-color)
 }
-.link, .link-nav {
+.header-logo{
+  color:var(--title-text-color);
+}
+.header-link{
+  color:var(--title-text-color) ;
+}
+.contacts-link {
   color: var(--title-text-color)
 }
-.link-nav:hover, .link-nav:focus {
+.contacts-link:hover, .contacts-link:focus {
   color: var(--accent-text-color)
 }
 
@@ -65,7 +72,7 @@ font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.advanteges-list {
+.advanteges-text {
   font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
